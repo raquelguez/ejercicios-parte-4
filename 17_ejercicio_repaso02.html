@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+    let sumString = window.prompt("Introduzca una suma:");
+    let sumIndex = sumString.indexOf("+");
+    let num1 = sumString.substring(0, sumIndex);
+    let num2 = sumString.substring(sumIndex + 1);
+    console.log(num1, num2);
+    console.log(parseInt(num1) + parseInt(num2));
+    </script>
+</body>
+
+</html>
